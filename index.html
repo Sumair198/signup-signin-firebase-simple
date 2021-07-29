@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>auth</title>
+    <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-auth.js"></script>
+    <script>
+        var firebaseConfig = {
+          apiKey: "AIzaSyDKsUTFabUVnUni0dM6FaoPL-1xszphSCU",
+          authDomain: "saylani-auth.firebaseapp.com",
+          projectId: "saylani-auth",
+          storageBucket: "saylani-auth.appspot.com",
+          messagingSenderId: "55960196734",
+          appId: "1:55960196734:web:3118cdbfecdeace8022a2f",
+          measurementId: "G-XNN88P0VDL"
+        };
+        firebase.initializeApp(firebaseConfig);
+      </script>
+</head>
+
+<body>
+
+    <h1>SignUp</h1>
+    <input type="text" name="" id="email"><br><br>
+    <input type="password" name="" id="pass"><br><br>
+    <button onclick="signup()">SignUp</button>
+
+
+    <h1>Signin</h1>
+    <input type="text" name="" id="s-email"><br><br>
+    <input type="password" name="" id="s-pass"><br><br>
+    <button onclick="singin()">Signin</button>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
